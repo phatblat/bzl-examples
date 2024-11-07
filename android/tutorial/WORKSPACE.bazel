@@ -20,7 +20,7 @@ android_sdk_repository(
     name = "androidsdk",
     api_level = 26, # Replace with your API level
     build_tools_version = "35.0.0", # Replace with your build tools version
-    path = "/Users/phatblat/Library/Android/sdk",
+    # path = "/Users/phatblat/Library/Android/sdk",
 )
 
 register_toolchains(
