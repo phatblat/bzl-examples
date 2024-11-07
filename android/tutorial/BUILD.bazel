@@ -2,6 +2,8 @@ package(
     default_visibility = ["//src:__subpackages__"],
 )
 
+load("@rules_android//rules:rules.bzl", "android_binary", "android_library")
+
 android_library(
     name = "greeter_activity",
     srcs = [
@@ -15,5 +17,5 @@ android_library(
 android_binary(
     name = "app",
     manifest = "AndroidManifest.xml",
-    deps = ["//src/main/java/com/example/bazel:greeter_activity"],
+    deps = ["//:greeter_activity"],
 )
