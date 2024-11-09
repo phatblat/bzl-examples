@@ -1,3 +1,1 @@
-build --experimental_google_legacy_api
-info --experimental_google_legacy_api
-query --experimental_google_legacy_api
+common --experimental_google_legacy_api
